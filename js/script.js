@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
   
-  var datepickerCircleTricks = document.querySelector('.datepicker-circle-tricks');
+  var datepickerCircleTricks = document.querySelector('.calendar-datepicker-multiple');
   var instance = M.Datepicker.init(datepickerCircleTricks);
 
 

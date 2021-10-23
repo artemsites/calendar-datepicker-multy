@@ -19,7 +19,7 @@ body {
           align-items: flex-start;
 }
 
-.datepicker-circle-tricks {
+.calendar-datepicker-multiple {
   display: inline-block;
   width: 200px !important;
   height: 50px !important;
@@ -31,23 +31,23 @@ body {
   opacity: 1;
   margin-top: 25vh !important;
 }
-.datepicker-circle-tricks::-webkit-input-placeholder {
+.calendar-datepicker-multiple::-webkit-input-placeholder {
   color: white;
   text-align: center;
 }
-.datepicker-circle-tricks::-moz-placeholder {
+.calendar-datepicker-multiple::-moz-placeholder {
   color: white;
   text-align: center;
 }
-.datepicker-circle-tricks:-ms-input-placeholder {
+.calendar-datepicker-multiple:-ms-input-placeholder {
   color: white;
   text-align: center;
 }
-.datepicker-circle-tricks::-ms-input-placeholder {
+.calendar-datepicker-multiple::-ms-input-placeholder {
   color: white;
   text-align: center;
 }
-.datepicker-circle-tricks::placeholder {
+.calendar-datepicker-multiple::placeholder {
   color: white;
   text-align: center;
 }
