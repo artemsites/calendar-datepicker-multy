@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.datepicker-circle-tricks {
+  display: inline-block;
+  width: 200px !important;
+  height: 50px !important;
+  background-color: #26a69a !important;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  font-weight: 900;
+  opacity: 1;
+  margin-top: 25vh !important;
+}
+.datepicker-circle-tricks::-webkit-input-placeholder {
+  color: white;
+  text-align: center;
+}
+.datepicker-circle-tricks::-moz-placeholder {
+  color: white;
+  text-align: center;
+}
+.datepicker-circle-tricks:-ms-input-placeholder {
+  color: white;
+  text-align: center;
+}
+.datepicker-circle-tricks::-ms-input-placeholder {
+  color: white;
+  text-align: center;
+}
+.datepicker-circle-tricks::placeholder {
+  color: white;
+  text-align: center;
+}

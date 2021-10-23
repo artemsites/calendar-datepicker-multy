@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.datepicker-circle-tricks {
+  display: inline-block;
+  width: 200px!important;
+  height: 50px!important;
+  background-color: #26a69a!important;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  font-weight: 900;
+  opacity: 1;
+
+  margin-top: 25vh!important;
+  &::placeholder {
+    color: white;
+    text-align: center;
+  }
+}
